@@ -8,3 +8,4 @@ as informações inseridas pelos pacientes no cadastro são inseridos no mongodb
 e depois que ele fazer o login direcionado para a rota /bemvindo. Além disso, também coloquei uma rota de POST para o login onde os dados do usuário são verificadas no mongodb.
 O HTML e CSS (login/ bemvindo e cadastro_pac), arquivo login.html contém uma aba de login, onde o usuário insere seu e-mail e senha. Se as credenciais forem válidas, o usuário é redirecionado para a página de boas-vindas. 
 Caso contrário, é exibida uma mensagem de erro. No app.py, utilizei a biblioteca flask junto com o Flask-PyMongo para se conectar ao banco de dados MongoDB, já informado o link acima. 
+ link do video https://www.loom.com/share/540e003b12214f33bd794f5812361ee1?sid=7578b6ef-3900-462c-bdea-a64d1b1e3cca
